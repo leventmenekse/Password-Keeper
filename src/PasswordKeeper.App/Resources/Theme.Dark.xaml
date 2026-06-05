@@ -1,0 +1,52 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- Colors mirror .pk-dark in design/app.css -->
+    <Color x:Key="Color.Bg">#FF0B0B0D</Color>
+    <Color x:Key="Color.Panel">#FF111114</Color>
+    <Color x:Key="Color.Panel2">#FF16161A</Color>
+    <Color x:Key="Color.Panel3">#FF1C1C22</Color>
+    <Color x:Key="Color.Hover">#FF1A1A20</Color>
+    <Color x:Key="Color.Border">#FF22222A</Color>
+    <Color x:Key="Color.Border2">#FF2C2C36</Color>
+    <Color x:Key="Color.Text">#FFE8E8EC</Color>
+    <Color x:Key="Color.Text2">#FFB8B8C0</Color>
+    <Color x:Key="Color.Muted">#FF7A7A83</Color>
+    <Color x:Key="Color.Dim">#FF4D4D56</Color>
+    <Color x:Key="Color.Accent">#FFEF4444</Color>
+    <Color x:Key="Color.AccentSoft">#24EF4444</Color>
+    <Color x:Key="Color.AccentEdge">#73EF4444</Color>
+    <Color x:Key="Color.Good">#FF5EC27A</Color>
+    <Color x:Key="Color.Warn">#FFE2B34A</Color>
+    <Color x:Key="Color.Link">#FF76AFF5</Color>
+
+    <SolidColorBrush x:Key="Brush.Bg"          Color="{StaticResource Color.Bg}" />
+    <SolidColorBrush x:Key="Brush.Panel"       Color="{StaticResource Color.Panel}" />
+    <SolidColorBrush x:Key="Brush.Panel2"      Color="{StaticResource Color.Panel2}" />
+    <SolidColorBrush x:Key="Brush.Panel3"      Color="{StaticResource Color.Panel3}" />
+    <SolidColorBrush x:Key="Brush.Hover"       Color="{StaticResource Color.Hover}" />
+    <SolidColorBrush x:Key="Brush.Border"      Color="{StaticResource Color.Border}" />
+    <SolidColorBrush x:Key="Brush.Border2"     Color="{StaticResource Color.Border2}" />
+    <SolidColorBrush x:Key="Brush.Text"        Color="{StaticResource Color.Text}" />
+    <SolidColorBrush x:Key="Brush.Text2"       Color="{StaticResource Color.Text2}" />
+    <SolidColorBrush x:Key="Brush.Muted"       Color="{StaticResource Color.Muted}" />
+    <SolidColorBrush x:Key="Brush.Dim"         Color="{StaticResource Color.Dim}" />
+    <SolidColorBrush x:Key="Brush.Accent"      Color="{StaticResource Color.Accent}" />
+    <SolidColorBrush x:Key="Brush.AccentSoft"  Color="{StaticResource Color.AccentSoft}" />
+    <SolidColorBrush x:Key="Brush.AccentEdge"  Color="{StaticResource Color.AccentEdge}" />
+    <SolidColorBrush x:Key="Brush.Good"        Color="{StaticResource Color.Good}" />
+    <SolidColorBrush x:Key="Brush.Warn"        Color="{StaticResource Color.Warn}" />
+    <SolidColorBrush x:Key="Brush.Link"        Color="{StaticResource Color.Link}" />
+
+    <!-- Fonts -->
+    <FontFamily x:Key="Font.Ui">Segoe UI</FontFamily>
+    <FontFamily x:Key="Font.Mono">pack://application:,,,/Resources/Fonts/#JetBrains Mono, Cascadia Mono, Consolas</FontFamily>
+
+    <sys:Double x:Key="FontSize.Sm">11</sys:Double>
+    <sys:Double x:Key="FontSize.Md">12.5</sys:Double>
+    <sys:Double x:Key="FontSize.Body">13</sys:Double>
+    <sys:Double x:Key="FontSize.Lg">14</sys:Double>
+    <sys:Double x:Key="FontSize.Title">22</sys:Double>
+
+</ResourceDictionary>
