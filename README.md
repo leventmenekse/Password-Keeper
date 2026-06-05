@@ -95,4 +95,4 @@ The core cryptography and vault logic live in `PasswordKeeper.Core`, which has n
 
 ## License
 
-No license has been chosen yet. Until one is added, the code is "all rights reserved" by default. Consider adding a `LICENSE` file (e.g. MIT) before publishing if you want others to be able to use it.
+Released under the [MIT License](LICENSE) — © 2026 Levent Menekse. You're free to use, modify, and distribute this software; it is provided "as is", without warranty of any kind.
